@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div>
+        <h1>아래 버튼을 눌러 메뉴를 확인하세요.</h1>
+        <select id="getOption">
+            <option value="밥">밥</option>
+            <option value="국">국</option>
+            <option value="메인 반찬 1">메인 반찬 1</option>
+            <option value="메인 반찬 2">메인 반찬 2</option>
+            <option value="반찬 1">반찬 1</option>
+            <option value="반찬 2">반찬 2</option>
+            <option value="반찬 3">반찬 3</option>
+        </select>
+        <button onclick="getitem()">버튼</button>
+    </div>
+    <div>
+        <h1>지우고 싶은 메뉴를 선택해 주세요.</h1>
+        <select id="removeOption">
+            <option value="밥">흑미밥</option>
+            <option value="국">소고기 무국</option>
+            <option value="메인 반찬 1">닭강정</option>
+            <option value="메인 반찬 2">잡채</option>
+            <option value="반찬 1">김치</option>
+            <option value="반찬 2">콩나물 무침</option>
+            <option value="반찬 3">도라지 무침</option>
+        </select>
+        <button onclick="removeitem()">지우기</button>
+    </div>
+    <div>
+        <h1>전부 지우고싶다면 비우기 버튼을 눌러주세요.</h1>
+        <button onclick="clearitem()">비우기</button>
+    </div>
+
+
+</body>
+</html>
